@@ -4,7 +4,6 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 import com.bridgelabz.utils.InputUtility;
-import com.bridgelabz.utils.Utility;
 
 public class HarmonicNumber {
 	private final static Logger logger = Logger.getLogger(HarmonicNumber.class);

@@ -3,17 +3,16 @@ package com.bridgelabz.basicprogramming;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-import com.bridgelabz.customizedexceptions.CustomizedExceptions;
+import com.bridgelabz.customizedexceptions.YearLessThan15882Exception;
 import com.bridgelabz.utils.InputUtility;
 import com.bridgelabz.utils.LogUtility;
-import com.bridgelabz.utils.Utility;
 
 public class LeapYear {
 	
 	//private final static Logger logger = Logger.getLogger(LeapYear.class);
 	
 	public static void main(String[] args) 
-			throws CustomizedExceptions {
+			throws YearLessThan15882Exception {
 		
 		
 		LogUtility.setLog(LeapYear.class.getName());
@@ -29,7 +28,7 @@ public class LeapYear {
 		else
 			logger.info("not leap");
 		}
-		catch(CustomizedExceptions e) {
+		catch(YearLessThan15882Exception e) {
 			e.printStackTrace();
 		}
 	}

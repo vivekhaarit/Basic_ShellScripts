@@ -1,19 +1,19 @@
-package com.bridgelabz.utils;
+package com.bridgelabz.basicprogramming;
 
 import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
 
-import com.bridgelabz.customizedexceptions.CustomizedExceptions;
+import com.bridgelabz.customizedexceptions.YearLessThan15882Exception;
 
 public class Utility {
 	
 	private final static Logger logger = Logger.getLogger(Utility.class);
 	
-	public static boolean isLeapYear(int year) throws CustomizedExceptions {
+	public static boolean isLeapYear(int year) throws YearLessThan15882Exception {
 		boolean result=false;
 		if(year<1582)
-			throw new CustomizedExceptions("Enter any year greater than 1582.");
+			throw new YearLessThan15882Exception("Enter any year greater than 1582.");
 		
 		else {
 			if(year%4 == 0) {
@@ -33,8 +33,7 @@ public class Utility {
 			}
 			else {
 			result=false;
-			return result;
-			}
+			return result;}
 		}
 	}
 	
@@ -49,10 +48,10 @@ public class Utility {
 	
 	
 	
-	public static ArrayList primeFactors(int num) throws CustomizedExceptions {
+	public static ArrayList primeFactors(int num) throws YearLessThan15882Exception {
 		
 		if(num<2)
-			throw new CustomizedExceptions("Enter no greater than 2.");
+			throw new YearLessThan15882Exception("Enter no greater than 2.");
 		else {
 			int j;
 			ArrayList<Integer> list = new ArrayList<Integer>();
@@ -96,10 +95,10 @@ public class Utility {
 	
 
 	public static void calculatePowerOfTwo(int n) 
-			throws CustomizedExceptions{
+			throws YearLessThan15882Exception{
 		
 		if(n==0)
-			throw new CustomizedExceptions("Enter a no greater than 1");
+			throw new YearLessThan15882Exception("Enter a no greater than 1");
 		int result = 1;
 		int[] arr= new int[n];
 		for(int i=1;i<=n;i++) {

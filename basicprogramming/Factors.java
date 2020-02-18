@@ -8,7 +8,6 @@ import org.apache.log4j.PropertyConfigurator;
 import com.bridgelabz.customizedexceptions.CustomizedExceptions;
 import com.bridgelabz.utils.InputUtility;
 import com.bridgelabz.utils.LogUtility;
-import com.bridgelabz.utils.Utility;
 
 public class Factors {
 	//private final static Logger logger = Logger.getLogger(Factors.class);

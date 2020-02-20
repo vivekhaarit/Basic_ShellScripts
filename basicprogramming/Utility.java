@@ -4,16 +4,16 @@ import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
 
-import com.bridgelabz.customizedexceptions.YearLessThan15882Exception;
+import com.bridgelabz.myexceptions.MyException;
 
 public class Utility {
 	
 	private final static Logger logger = Logger.getLogger(Utility.class);
 	
-	public static boolean isLeapYear(int year) throws YearLessThan15882Exception {
+	public static boolean isLeapYear(int year) throws MyException {
 		boolean result=false;
 		if(year<1582)
-			throw new YearLessThan15882Exception("Enter any year greater than 1582.");
+			throw new MyException("Enter any year greater than 1582.");
 		
 		else {
 			if(year%4 == 0) {
@@ -48,10 +48,10 @@ public class Utility {
 	
 	
 	
-	public static ArrayList primeFactors(int num) throws YearLessThan15882Exception {
+	public static ArrayList primeFactors(int num) throws MyException {
 		
 		if(num<2)
-			throw new YearLessThan15882Exception("Enter no greater than 2.");
+			throw new MyException("Enter no greater than 2.");
 		else {
 			int j;
 			ArrayList<Integer> list = new ArrayList<Integer>();
@@ -95,10 +95,10 @@ public class Utility {
 	
 
 	public static void calculatePowerOfTwo(int n) 
-			throws YearLessThan15882Exception{
+			throws MyException{
 		
 		if(n==0)
-			throw new YearLessThan15882Exception("Enter a no greater than 1");
+			throw new MyException("Enter a no greater than 1");
 		int result = 1;
 		int[] arr= new int[n];
 		for(int i=1;i<=n;i++) {

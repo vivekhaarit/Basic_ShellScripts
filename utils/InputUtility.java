@@ -20,4 +20,13 @@ public class InputUtility {
 	public static Object[] getArray(int size) {
 		return new Object[size];
 	}
+	
+	public static int[] getDate(String dateString) {
+		String[] ddmmyy = dateString.split(" ");
+		int[] date = new int[3];
+		for(int i=0;i<3;i++) {
+			date[i] = Integer.parseInt(ddmmyy[i]);
+		}
+		return date;
+	}
 }

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-import com.bridgelabz.customizedexceptions.CustomizedExceptions;
+import com.bridgelabz.myexceptions.MyException;
 import com.bridgelabz.utils.InputUtility;
 import com.bridgelabz.utils.LogUtility;
 
@@ -14,7 +14,7 @@ public class Factors {
 	
 	
 	public static void main(String[] args) 
-			throws CustomizedExceptions{
+			throws MyException{
 		
 
 		LogUtility.setLog(Factors.class.getName());
@@ -28,7 +28,7 @@ public class Factors {
 			list = Utility.primeFactors(num);
 			logger.info(list);
 			}
-		catch(CustomizedExceptions e){
+		catch(MyException e){
 			logger.error(e);
 			e.printStackTrace();
 		}

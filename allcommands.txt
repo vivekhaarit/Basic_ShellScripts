@@ -186,3 +186,12 @@
   186  git config --global user.email "vivekhaarit@gmail.com"
   187  git config --global user.name "vivek kumar"
   188  history > allcommands.txt 
+  189  git commit -m "all terminal cmnds practised so far"
+  190  git status
+  191  git add .
+  192  history > allcommands.txt 
+  193  git commit -m "all terminal cmnds practised so far"
+  194  git push origin master
+  195  git pull origin master
+  196  git status
+  197  history > allcommands.txt 

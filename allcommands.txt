@@ -1,0 +1,188 @@
+    1  pwd
+    2  ls
+    3  cd desktop
+    4  cd /desktop
+    5  cd Desktop/
+    6  ls
+    7  cd..
+    8  cd ..
+    9  nano
+   10  sudo snap install vlc
+   11  cat /etc/sudoers
+   12  sudo cat etc/sudoers
+   13  sudo su -
+   14  sudo cat /etc/sudoers
+   15  cat /etc/group
+   16  cat /etc/passwd
+   17  gedit . bashrc
+   18  java -version
+   19  clear
+   20  sudo apt-get install openjdk-8-jdk
+   21  java -version
+   22  pwd
+   23  ls
+   24  cd Desktop/
+   25  git init
+   26  sudo apt install git
+   27  ls
+   28  mkdir bridgelabz
+   29  ls
+   30  cd bridgelabz/
+   31  git remote add origin
+   32  git init
+   33  git status
+   34  git remote add origin
+   35  git remote add origin https://github.com/vivekhaarit/BridgeLabz.git
+   36  git clone
+   37  git clone BridgeLabz
+   38  git clone https://github.com/vivekhaarit/BridgeLabz.git
+   39  ls
+   40  ls -r
+   41  ls -r BridgeLabz/
+   42  mv -r BridgeLabz ~/Desktop -verbose
+   43  mv BridgeLabz ~/Desktop -verbose
+   44  mv -r BridgeLabz/ ~/Desktop -verbose
+   45  ls -force BridgeLabz/
+   46  ls BridgeLabz/
+   47  ls --help
+   48  start chrome
+   49  alsamixer
+   50  sudo alsactl store
+   51  pwd
+   52  cd..
+   53  cd ..
+   54  ls
+   55  cd ~
+   56  cd eclipse-workspace/
+   57  ls
+   58  cd JavaProgramming/
+   59  git init
+   60  git status
+   61  cd ~
+   62  cd Desktop/
+   63  mkdie newfolder
+   64  mkdir newfolder
+   65  cd newfolder
+   66  nano helloworld.javva
+   67  ls
+   68  java helloworld.java
+   69  java helloworld
+   70  java -version
+   71  javac helloworld
+   72  javac helloworld.java
+   73  ps -help
+   74  ps
+   75  ps 
+   76  ps -elf
+   77  nano helloworld.java 
+   78  javac helloworld.java
+   79  nano helloworld.java 
+   80  javac Helloworld.java
+   81  ps -elf
+   82  nano Helloworld.java 
+   83  clear
+   84  nano Helloworld.java 
+   85  javac Helloworld.java 
+   86  java Helloworld
+   87  nano Helloworld.java 
+   88  jobs
+   89  javac Helloworld.java 
+   90  java Helloworld
+   91  jobs
+   92  %2
+   93  %1
+   94  bg %1
+   95  jobs
+   96  javac helloworld.java
+   97  java Helloworld
+   98  cd Desktop/
+   99  cd newfolder/
+  100  grep
+  101  grep java
+  102  ps -elf | grep java
+  103  grep java
+  104  cd ..
+  105  cd Desktop/newfolder/
+  106  history
+  107  ps -elf | grep java
+  108  history
+  109  ps -elf | grep java | grep -v grep
+  110  cd Desktop/newfolder/
+  111  ps -elf | grep java | grep -v grep
+  112  ps -elf | grep java
+  113  java Helloworld
+  114  ps -elf | grep java | grep -v grep
+  115  javac Helloworld.java
+  116  java Helloworld
+  117  grep java
+  118  history
+  119  cd Desktop/newfolder/
+  120  ls
+  121  java Helloworld.class
+  122  java Helloworld
+  123  jobs
+  124  ps -elf | grep java | grep -v grep
+  125  touch newfile
+  126  nano newfile 
+  127  cat newfile
+  128  clear
+  129  ps -elf | grep java | grep -v grep
+  130  ps -elf | grep java | grep -v grep | awk helloworld '{print $2}'
+  131  ps -elf | grep java | grep -v grep | awk helloworld '{print $1}'
+  132  ps -elf | grep java | grep -v grep | awk helloworld '{print $0}'
+  133  ps -elf | grep java | grep -v grep | awk helloworld '{print $3}'
+  134  ps -elf | grep java | grep -v grep | awk helloworld '{print $4}'
+  135  ps -elf | grep java | grep -v grep | awk '{print $2}'
+  136  history | grep java
+  137  clear
+  138  java Helloworld 
+  139  myPid= ps -elf | grep java | grep -v grep | awk '{print $2}'
+  140  echo myPid
+  141  echo $myPid
+  142  kill -9 $myPid
+  143  java Helloworld 
+  144  ps -elf | grep java | grep -v grep | awk '{print $2}'
+  145  ps -elf | grep java | grep -v grep 
+  146  killall java
+  147  ps -elf | grep java | grep -v grep 
+  148  clear
+  149  echo "hello terminal"
+  150  echo "hello terminal"|awk '{$2=Adam} {echo $0}'
+  151  echo "hello terminal"|awk '{$2=Adam} {print $0}'
+  152  echo "hello terminal"|awk '{$2=Adam} {print $1}'
+  153  echo "hello terminal"|awk 'BEGIN {$2=Adam} END {print $1}'
+  154  echo "hello terminal"|awk 'BEGIN {$2=Adam} END {print $0}'
+  155  history
+  156  history > allcommands.txt
+  157  touch datfile
+  158  nano datfile 
+  159  cat datafile
+  160  cat datfile
+  161  cat datfile | grep -i Mosoa
+  162  cat datfile | grep -i Mosoa | awk '{print $2 " " $3}'
+  163  cat datfile | grep -i Mosoa | awk '{sum=sum+$3} END {print sum}'
+  164  history > allcommands.txt
+  165  cat datfile | grep -i Mosoa | awk '{sum=sum+$3} END {print sum/NR}'
+  166  history
+  167  ls
+  168  cd Desktop/
+  169  mkdir localRepo
+  170  git init
+  171  ls
+  172  mv newfolder/allcommands.txt localRepo/
+  173  ls localRepo/
+  174  git status
+  175  rm -r .git/
+  176  git init
+  177  rm -r .git/
+  178  cd localRepo/
+  179  ls
+  180  git init
+  181  git status
+  182  git remote add origin
+  183  git remote add origin https://github.com/vivekhaarit/BridgeLabz.git
+  184  history > allcommands.txt 
+  185  git commit -m "all the terminal commands practised"
+  186  git config --global user.email "vivekhaarit@gmail.com"
+  187  git config --global user.name "vivek kumar"
+  188  history > allcommands.txt 

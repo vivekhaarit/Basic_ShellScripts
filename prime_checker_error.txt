@@ -1,0 +1,6 @@
+$ ./prime_checker.sh
+enter a prime no to check no is prime or not
+num: 6
+./prime_checker.sh: line 8: syntax error near unexpected token `;;'
+./prime_checker.sh: line 8: `           ;;'
+
